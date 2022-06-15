@@ -5,7 +5,7 @@ Feature: Library app login feature
   accounts. And dashboard should be displayed.
   Accounts are: librarian, student, admin
 
-  @Emplooyee @Librarian @wip
+  @Employee @Librarian
   Scenario: Login as Librarian
     Given user is on library login page
     When user enters librarian username
